@@ -1,12 +1,12 @@
 import React from 'react'
 import Card from './Card'
 
-export default function Cards({itens, style}) {
+export default function Cards({itens, styles}) {
   return (
-    <ul className={style.galeria__cards}>
+    <ul className={styles.galeria__cards}>
         {itens.map((item) => {
         return (
-            <Card key={item.id} item={item} style={style} />
+            <Card key={item.id} item={item} style={styles} />
         )
         })}
     </ul>
