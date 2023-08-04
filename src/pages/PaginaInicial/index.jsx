@@ -1,6 +1,6 @@
 import Cabecalho from "../../components/Cabecalho";
 import Menu from "../../components/Menu";
-import Banner from "../../components/banner";
+import Banner from "../../components/Banner";
 import Rodape from "../../components/Rodape";
 import Galeria from "../../components/Galeria";
 
