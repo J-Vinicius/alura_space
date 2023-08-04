@@ -1,6 +1,8 @@
-import Cabecalho from "../../components/cabecalho";
-import Menu from "../../components/menu";
+import Cabecalho from "../../components/Cabecalho";
+import Menu from "../../components/Menu";
 import Banner from "../../components/banner";
+import Rodape from "../../components/Rodape";
+import Galeria from "../../components/Galeria";
 
 import styles from "./PaginaInicial.module.scss"
 
@@ -14,6 +16,10 @@ export default function PaginaInicial () {
                     <Banner />
                 </section>
             </main>
+            <div>
+                <Galeria />
+            </div>
+            <Rodape />
         </>
     )
 }
